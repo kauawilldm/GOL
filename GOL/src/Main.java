@@ -79,6 +79,16 @@ public class Main {
     }
 
 
+
+    public static boolean funcaolidarPopulation(String population){
+        if (population == null || population.isEmpty()){
+            return false;
+        }else{
+            return true;
+        }
+    };
+
+
     private static void loopAtravesDeTodasGeracoes(JogoDaVida jogo, int numGeracoes, int speed) {
         for (int i = 0; i < numGeracoes; i++) {
             if (jogo.todasCelulasMortas()) {
