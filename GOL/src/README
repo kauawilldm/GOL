@@ -1,0 +1,22 @@
+Jogo da Vida - Game of Life - GOL
+
+Como Compilar e Executar:
+
+1. Abra o Terminal
+
+Navegue até o diretório src do projeto:
+
+cd /caminho/para/o/diretorio/src
+ou abra o terminal indo no botão direito clicando na pasta src e Open in >> terminal
+
+2. Compile o Código
+
+Compile os arquivos Java:
+
+javac Main.java JogoDaVida.java
+
+3. Execute o Código
+
+Execute o programa com os parâmetros da atividade:
+
+java Main w=10 h=10 g=100 s=300 p="101#010#110" n=1
