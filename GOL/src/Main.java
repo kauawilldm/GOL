@@ -88,7 +88,7 @@ public class Main {
         }
     };
 
-
+    //teste
     private static void loopAtravesDeTodasGeracoes(JogoDaVida jogo, int numGeracoes, int speed) {
         for (int i = 0; i < numGeracoes; i++) {
             if (jogo.todasCelulasMortas()) {
